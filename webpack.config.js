@@ -16,14 +16,14 @@ module.exports = {
             // b) ‘dist’: 为生成的js文件路径文件夹
         // b) filename: 生成路径文件名js/bundle.js
     output:{
-        path: path.resolve( __dirname, 'dist' ),
+        path: path.resolve( __dirname, 'build' ),
         filename: 'js/bundle.js'    
     },
 
     // 设置动态监听目录与web-dev-server配合
         // 监听到js文件变动会直接显示在浏览器中
     devServer: {
-        contentBase: './dist'
+        contentBase: './build'
     },
 
     // 自动生成HTML与html-webpack-plugin配合
