@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "description": "es6实战食谱项目",
   "main": "index.js",
-  "homepage": "https://ztaer.github.io/Forkify-JS/",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "OO7",
   "license": "ISC",
@@ -26,7 +23,6 @@
     "@babel/polyfill": "^7.6.0",
     "axios": "^0.19.0",
     "fractional": "^1.0.0",
-    "gh-pages": "^2.2.0",
     "uniqid": "^5.0.3"
   }
 }
